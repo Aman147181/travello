@@ -9,7 +9,7 @@ import Notfound from "./components/Notfound";
 function App() {
   return (
     <>
-      <div className="min-h-screen flex flex-col w-full">
+      <div className="min-h-screen bg-[#FCFBF8] flex flex-col w-full">
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
