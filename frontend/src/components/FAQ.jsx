@@ -36,7 +36,7 @@ const FAQ = () => {
           <img
             src="/FAQ.jpg"
             alt="hero"
-            className="w-full rounded-xl object-cover"
+            className="w-full rounded-xl object-cover max-h-96  lg:max-h-full"
           />
         </div>
         <div className="col-span-1 lg:col-span-5 font-mont">

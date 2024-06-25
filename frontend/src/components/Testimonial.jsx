@@ -39,7 +39,7 @@ const Testimonial = () => {
 
   const currentReview = reviews[currentReviewIndex];
   return (
-    <div className="w-full flex flex-col px-4 sm:px-12 md:px-20 lg:px-28 xl:px-32 ">
+    <div className="w-full flex flex-col  ">
     <h1 className="w-full text-left text-[#b05441] font-mont text-lg sm:text-2xl pt-12">
       Testimonials
     </h1>
