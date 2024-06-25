@@ -17,7 +17,7 @@ const Footer = () => {
           <div className="w-full grid grid-cols-1 gap-y-5  sm:grid-cols-2">
               <div className="col-span-1 ">
                   <h1 className="font-garamond font-medium text-white text-3xl sm:text-4xl lg:text-5xl xl:text-6xl">LET'S HAVE A <br /> CONVERSATION</h1>
-                  <h1 className="text-white pt-6  font-roboto text-sm sm:text-base pl-4 sm:pl-10">Express Travel specializes in efficient booking services and crafting <br/>personalized itineraries for seamless and unforgettable travel experiences.</h1>
+                  <h1 className="text-white pt-6  font-roboto text-sm sm:text-base pl-4 sm:pl-10">Travello specializes in efficient booking services and crafting <br/>personalized itineraries for seamless and unforgettable travel experiences.</h1>
               </div>
               <div className="col-span-1 flex flex-col items-end ">
                   <h1 className="font-garamond font-medium text-white  text-2xl sm:text-3xl lg:text-4xl xl:text-5xl">Follow Us</h1>
