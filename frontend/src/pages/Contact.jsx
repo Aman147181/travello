@@ -1,5 +1,4 @@
-import React from "react";
-import Testimonial from "../components/Testimonial";
+import ContactForm from "../components/ContactForm";
 import FAQ from "../components/FAQ";
 
 
@@ -17,7 +16,7 @@ const Contact = () => {
         </div>
       </div>
       
-      <Testimonial />
+      <ContactForm/>
       <FAQ/>
     </div>
   );
