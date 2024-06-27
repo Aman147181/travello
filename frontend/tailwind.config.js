@@ -8,6 +8,7 @@ export default {
   ],
   theme: {
     fontFamily: {
+      play:"Playwrite FR Trad",
       dance: "Dancing Script",
       mont: "Montserrat",
       roboto: "Roboto",

@@ -57,7 +57,7 @@ const ContactForm = () => {
               name="name"
               value={formData.name}
               onChange={handleChange}
-              className="block w-full px-4 py-2 mt-1 border border-gray-300 rounded-md shadow-sm  focus:ring-[#b05441] focus:border-[#b05441]"
+              className="block w-full px-4 py-2 mt-1 border border-gray-300 rounded-md shadow-sm  focus:ring-[#b05441] focus:border-[#F64F02]"
               required
             />
           </div>
@@ -68,7 +68,7 @@ const ContactForm = () => {
               name="email"
               value={formData.email}
               onChange={handleChange}
-              className="block w-full px-4 py-2 mt-1 border border-gray-300 rounded-md shadow-sm focus:ring-[#b05441] focus:border-[#b05441]"
+              className="block w-full px-4 py-2 mt-1 border border-gray-300 rounded-md shadow-sm focus:ring-[#b05441] focus:border-[#F64F02]"
               required
             />
           </div>
@@ -79,7 +79,7 @@ const ContactForm = () => {
               name="phone"
               value={formData.phone}
               onChange={handleChange}
-              className="block w-full px-4 py-2 mt-1 border border-gray-300 rounded-md shadow-sm focus:ring-[#b05441] focus:border-[#b05441]"
+              className="block w-full px-4 py-2 mt-1 border border-gray-300 rounded-md shadow-sm focus:ring-[#F64F02] focus:border-[#F64F02]"
               required
             />
           </div>
@@ -89,7 +89,7 @@ const ContactForm = () => {
               name="message"
               value={formData.message}
               onChange={handleChange}
-              className="block w-full px-4 py-2 mt-1 border border-gray-300 rounded-md shadow-sm focus:ring-[#b05441] focus:border-[#b05441]"
+              className="block w-full px-4 py-2 mt-1 border border-gray-300 rounded-md shadow-sm focus:ring-[#F64F02] focus:border-[#F64F02]"
               rows="6"
               required
             />
@@ -97,7 +97,7 @@ const ContactForm = () => {
           <div>
             <button
               type="submit"
-              className="w-full px-4 py-2 font-medium text-white bg-[#b05441] rounded-md shadow-sm hover:bg-[#964737] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+              className="w-full px-4 py-2 font-medium text-white bg-[#F64F02] rounded-md shadow-sm hover:bg-[#F64F02] focus:outline-none focus:ring-2 focus:ring-offset-2 "
             >
               Send Message
             </button>

@@ -3,8 +3,8 @@ import { CiLocationOn } from "react-icons/ci";
 import Testimonial from "../components/Testimonial";
 const About = () => {
   return (
-    <div className="w-full px-4 sm:px-12 md:px-20 lg:px-28 xl:px-32">
-      <h1 className="w-full text-left text-[#b05441] font-mont text-lg sm:text-2xl pt-12">
+    <div className="w-full pt-12 px-4 sm:px-12 md:px-20 lg:px-28 xl:px-32">
+      <h1 className="w-full text-left text-[#F64F02] font-mont text-lg sm:text-2xl pt-12">
         About Us
       </h1>
       <h1 className="text-left font-mont pb-10 text-3xl sm:text-5xl">
@@ -25,12 +25,12 @@ const About = () => {
               we're here to turn your dream trips into reality. Join our community of thousands of satisfied
               customers and start your next adventure with us today!
             </h1>
-            <div className="flex items-center justify-center space-x-2">
-              <div className="rounded-full px-7 py-1 flex items-center space-x-2 border-black border">
+            <div className="flex items-center justify-center pt-5 space-x-2">
+              <div className="rounded-full px-4 py-1 flex items-center space-x-2 border-black border">
                <h1>30+ Destinations</h1> <h1 className="text-2xl"><CiLocationOn /></h1>
               </div>
-              <div className="rounded-full px-7 py-1 flex items-center space-x-2 border-black border">
-               <h1>2000+ Satisfied Customers</h1> <img src="/satisfaction.svg"/>
+              <div className="rounded-full px-4 py-1 flex items-center space-x-2 border-black border">
+               <h1>3000+ Satisfactions</h1> <img src="/satisfaction.svg"/>
               </div>
             </div>
           </div>
@@ -48,12 +48,12 @@ const About = () => {
               we're here to turn your dream trips into reality. Join our community of thousands of satisfied
               customers and start your next adventure with us today!
             </h1>
-            <div className="flex items-center justify-center space-x-2">
-              <div className="rounded-full px-7 py-1 flex items-center space-x-2 border-black border">
+            <div className=" xl:hidden flex items-center pt-5  justify-center space-x-2">
+              <div className="rounded-full px-4 py-1 flex items-center space-x-2 border-black border">
                <h1>30+ Destinations</h1> <h1 className="text-2xl"><CiLocationOn /></h1>
               </div>
-              <div className="rounded-full px-7 py-1 flex items-center space-x-2 border-black border">
-               <h1>2000+ Satisfied Customers</h1> <img src="/satisfaction.svg"/>
+              <div className="rounded-full px-4 py-1 flex items-center space-x-2 border-black border">
+               <h1>3000+ Satisfactions</h1> <img src="/satisfaction.svg"/>
               </div>
             </div>
           </div>

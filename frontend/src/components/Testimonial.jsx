@@ -40,11 +40,11 @@ const Testimonial = () => {
   const currentReview = reviews[currentReviewIndex];
   return (
     <div className="w-full flex flex-col  ">
-    <h1 className="w-full text-left text-[#b05441] font-mont text-lg sm:text-2xl pt-12">
+    <h1 className="w-full text-left text-[#F64F02] font-mont text-lg sm:text-2xl pt-12">
       Testimonials
     </h1>
     <h1 className="text-left font-mont text-3xl sm:text-5xl">Customer Reviews</h1>
-    <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 pt-3 pb-10 ">
+    <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 pt-6 pb-10 ">
       <div className="col-span-1">
         <img
           src="/testimonial.jpg"

@@ -27,7 +27,7 @@ const faqContent = [
 const FAQ = () => {
   return (
     <div className="w-full flex flex-col px-4 sm:px-12 md:px-20 lg:px-28 xl:px-32 ">
-      <h1 className="w-full text-left text-[#b05441] font-mont text-lg sm:text-2xl pt-12">
+      <h1 className="w-full text-left text-[#F64F02] font-mont text-lg sm:text-2xl pt-12">
         FAQs
       </h1>
       <h1 className="text-left font-mont text-3xl sm:text-5xl">HAVE ANY QUESTIONS?</h1>
