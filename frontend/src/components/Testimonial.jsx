@@ -53,7 +53,7 @@ const Testimonial = () => {
         />
       </div>
       <div className=" col-span-1 lg:col-span-2 rounded-3xl border-2 p-4 sm:p-8 flex flex-col justify-center    h-full border-[#E5E3DC]">
-        <h1 className="pb-6 font-mont text-lg sm:text-xl">{currentReview.review}</h1>
+        <h1 className="pb-6 font-mont text-lg sm:text-xl">" {currentReview.review} "</h1>
         <hr className=" border-b border-[#E5E3DC] w-full" />
         <div  className="flex justify-between pt-9 sm:pt-12 items-center">
           <div className="flex items-center justify-center space-x-2">

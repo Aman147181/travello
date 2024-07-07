@@ -13,8 +13,8 @@ const packageCard = (props) => {
         <div className="text-xl flex items-center justify-center space-x-1 font-mont"><FaRegClock/><span>{props.days}</span></div>
         <div className="text-xl flex items-center justify-center space-x-1 font-mont"><IoPricetag/><span>{props.price}</span></div>
       </div>
-      <h1 className="text-3xl font-garamond pt-4">{props.name}</h1>
-      <h1 className="text-xl font-mont pt-2">{props.description}</h1>
+      <h1 className="text-2xl sm:text-3xl font-garamond pt-4">{props.name}</h1>
+      <h1 className="text-lg sm:text-xl font-mont pt-1">{props.description}</h1>
     </div>
   );
 };

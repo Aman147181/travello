@@ -190,8 +190,8 @@ const HomePackages = () => {
   return (
     <div className="flex flex-col px-4 sm:px-12 md:px-20 lg:px-28 xl:px-32 w-full min-h-96 ">
       <div className="flex flex-col w-full max-w-4xl">
-        <h1 className="text-5xl font-garamond">Explore Our Tours</h1>
-        <h1 className="text-2xl pt-5 font-mont">
+        <h1 className="text-4xl lg:text-5xl font-garamond">Explore Our Tours</h1>
+        <h1 className="text-xl lg:text-2xl pt-5 font-mont">
           Dive into adventure with our curated selection of tours, offering
           unforgettable experiences in destinations around the globe.
         </h1>
