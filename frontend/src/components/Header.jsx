@@ -56,7 +56,7 @@ const Header = () => {
       </div>
       {/* Mobile menu */}
       <div
-        className={`md:hidden bg-[#FFF9F9] w-full absolute top-16 left-0 transition-all duration-300 ease-in-out ${
+        className={`md:hidden bg-[#FFF9F9] w-full absolute top-16 left-0 transition-all duration-700 ease-in-out ${
           isMenuOpen ? "max-h-screen opacity-100" : "max-h-0 opacity-0 overflow-hidden"
         }`}
       >

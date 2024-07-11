@@ -2,6 +2,9 @@ import React from "react";
 import { CiLocationOn } from "react-icons/ci";
 import Testimonial from "../components/Testimonial";
 const About = () => {
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="w-full pt-12 px-4 sm:px-12 md:px-20 lg:px-28 xl:px-32">
       <h1 className="w-full text-left text-[#F64F02] font-mont text-lg sm:text-2xl pt-12">

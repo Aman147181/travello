@@ -6,6 +6,9 @@ import HomePackages from "../components/HomePackages";
 import { Link } from "react-router-dom";
 
 const Home = () => {
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="min-h-screen">
       <div className="flex w-full flex-col space-y-10 items-center justify-center min-h-[600px]">
@@ -16,7 +19,7 @@ const Home = () => {
           </span>
         </h1>
         <h1 className=" text-lg xl:text-xl font-roboto px-2 text-center max-w-4xl text-gray-400">
-          A Multinational Travel Management Company with a 25-year long global
+          A Multinational Travel Management Company with a 12-year long global
           presence and expertise in business travel sector.
         </h1>
         <Link to="/packages">

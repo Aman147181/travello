@@ -1,9 +1,12 @@
+import React from "react";
 import ContactForm from "../components/ContactForm";
 import FAQ from "../components/FAQ";
 
 
 const Contact = () => {
-  
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div className="min-h-screen w-full  flex flex-col">

@@ -41,7 +41,7 @@ const Footer = () => {
               </Link>
             </div>
             <div className="flex col-span-1 flex-col space-y-1">
-              <h1 className="font-mont ">CONNECTED</h1>
+              <h1 className="font-mont ">CONNECT WITH US</h1>
               <a
                 href="https://facebook.com"
                 className="font-roboto hover:text-[#F64F02]"

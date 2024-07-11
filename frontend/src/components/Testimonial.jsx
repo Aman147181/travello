@@ -71,13 +71,13 @@ const Testimonial = () => {
           </div>
           <div className="flex items-center justify-center space-x-2">
             <div
-              className="flex justify-center border border-slate-300 sm:hover:bg-[#b05441] duration-500 sm:hover:text-white items-center rounded-full size-8 sm:size-10"
+              className="flex justify-center border border-slate-300 sm:hover:bg-[#F64F02] duration-500 sm:hover:text-white items-center rounded-full size-8 sm:size-10"
               onClick={handlePreviousReview}
             >
               <GrPrevious />
             </div>
             <div
-              className="flex justify-center border border-slate-300 sm:hover:bg-[#b05441] duration-500 sm:hover:text-white items-center rounded-full size-8 sm:size-10"
+              className="flex justify-center border border-slate-300 sm:hover:bg-[#F64F02] duration-500 sm:hover:text-white items-center rounded-full size-8 sm:size-10"
               onClick={handleNextReview}
             >
               <GrNext />
