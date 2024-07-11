@@ -68,6 +68,9 @@ const IndividualPackage = () => {
             alt={packages.name}
           />
         </div>
+        <div className="flex col-span-5 lg:hidden font-mont text-justify    ">
+          {packages.description}
+        </div>
         <div className="flex col-span-5 lg:col-span-2 flex-col max-h-[360px] lg:sticky lg:top-20  rounded-2xl bg-white border shadow-sm p-8    border-slate-200  ">
           <h1 className="text-3xl font-mont font-medium pb-4 ">Itinerary</h1>
           <Tabs
@@ -89,7 +92,7 @@ const IndividualPackage = () => {
             )}
           </Tabs>
         </div>
-        <div className="flex col-span-5 lg:col-span-3  font-mont text-justify    ">
+        <div className=" hidden lg:flex col-span-5 lg:col-span-3  font-mont text-justify    ">
           {packages.description}
         </div>
 
@@ -119,8 +122,8 @@ const IndividualPackage = () => {
           </ul>{" "}
         </div>
       </div>
-      <h1 className="pt-12 font-mont text-3xl font-medium">Similar Packages</h1>
-      <div className="w-full grid grid-cols-1 md:grid-cols-2 pt-10 gap-10">
+      <h1 className="pt-12 font-mont text-4xl font-medium">Similar Packages</h1>
+      <div className="w-full grid grid-cols-1 md:grid-cols-2 pt-6 gap-10">
        
         {similarPackages.slice(0,3).map((packageItem, index) => (
           <div className="col-span-1" key={index}>
