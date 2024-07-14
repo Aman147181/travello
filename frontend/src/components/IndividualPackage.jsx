@@ -12,7 +12,7 @@ const IndividualPackage = () => {
   );
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, []);
+  }, [id]);
   if (!packages) {
     return (
       <div className="min-h-screen flex flex-col justify-center items-center  w-full">
@@ -60,27 +60,28 @@ const IndividualPackage = () => {
           <h1 className="font-medium">{packages.location}</h1>
         </div>
       </div>
-      <div className="grid grid-cols-5 gap-8">
-        <div className="flex flex-col col-span-5 lg:col-span-3">
+      <div className="grid grid-cols-6 gap-8">
+        <div className="flex flex-col col-span-6 lg:col-span-4">
           <img
             src={packages.image}
-            className="w-full object-cover max-h-[360px] rounded-2xl "
+            className="w-full object-cover max-h-96 rounded-2xl "
             alt={packages.name}
           />
         </div>
-        <div className="flex col-span-5 lg:hidden font-mont text-justify    ">
+        <div className="flex col-span-6 lg:hidden font-mont text-justify    ">
           {packages.description}
         </div>
-        <div className="flex col-span-5 lg:col-span-2 flex-col max-h-[360px] lg:sticky lg:top-20  rounded-2xl bg-white border shadow-sm p-8    border-slate-200  ">
+        <div className="flex col-span-6 lg:col-span-2 flex-col  lg:sticky lg:top-20  rounded-2xl bg-white border shadow-sm p-8    border-slate-200  ">
           <h1 className="text-3xl font-mont font-medium pb-4 ">Itinerary</h1>
           <Tabs
             aria-label="Dynamic tabs"
             color="primary"
             variant="solid"
-            items={packages.itinerary}
+           
           >
-            {(item) => (
-              <Tab key={item.name} title={item.name}>
+            {packages.itinerary.map((item,index) => (
+              <Tab key={item.name} title={`Day ${index+1}`}>
+                <h1 className="font-mont font-medium text-xl pb-2 pt-4">{ item.name}</h1>
                 <ul className="list-disc pl-5">
                   {item.highlights.map((highlight, i) => (
                     <li key={i} className="mb-1">
@@ -89,14 +90,14 @@ const IndividualPackage = () => {
                   ))}
                 </ul>{" "}
               </Tab>
-            )}
+            ))}
           </Tabs>
         </div>
-        <div className=" hidden lg:flex col-span-5 lg:col-span-3  font-mont text-justify    ">
+        <div className=" hidden lg:flex col-span-6 lg:col-span-4  font-mont text-justify    ">
           {packages.description}
         </div>
 
-        <div className="flex flex-col  col-span-5 lg:col-span-3  font-mont text-justify    ">
+        <div className="flex flex-col  col-span-6 lg:col-span-4  font-mont text-justify    ">
           <h1 className="text-3xl font-mont font-medium pb-4 ">
             Package Inclusions
           </h1>
@@ -109,7 +110,7 @@ const IndividualPackage = () => {
           </ul>{" "}
         </div>
 
-        <div className="flex flex-col col-span-5 lg:col-span-3  font-mont text-justify    ">
+        <div className="flex flex-col col-span-6 lg:col-span-4  font-mont text-justify    ">
           <h1 className="text-3xl font-mont font-medium pb-4 ">
             Package Exclusions
           </h1>

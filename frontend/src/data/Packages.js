@@ -31,7 +31,7 @@ export const dummyPackages = [
     ],
     itinerary: [
       {
-        name: "Day 1: Arrival in Baku",
+        name: "Arrival in Baku",
         highlights: [
           "Arrive at Heydar Aliyev International Airport",
           "Transfer to hotel in downtown Baku",
@@ -40,7 +40,7 @@ export const dummyPackages = [
         ],
       },
       {
-        name: "Day 2: Baku City Tour",
+        name: "Baku City Tour",
         highlights: [
           "Breakfast at the hotel",
           "Visit the iconic Flame Towers",
@@ -51,7 +51,7 @@ export const dummyPackages = [
         ],
       },
       {
-        name: "Day 3: Gobustan and Mud Volcanoes",
+        name: "Gobustan and Mud Volcanoes",
         highlights: [
           "Breakfast at the hotel",
           "Day trip to Gobustan National Park",
@@ -62,7 +62,7 @@ export const dummyPackages = [
         ],
       },
       {
-        name: "Day 4: Departure",
+        name: "Departure",
         highlights: [
           "Breakfast at the hotel",
           "Morning at leisure for last-minute shopping",
@@ -105,7 +105,7 @@ export const dummyPackages = [
     ],
     itinerary: [
       {
-        name: "Day 1: Welcome to Phuket",
+        name: "Welcome to Phuket",
         highlights: [
           "Arrive at Phuket International Airport",
           "Transfer to beachfront resort",
@@ -114,7 +114,7 @@ export const dummyPackages = [
         ],
       },
       {
-        name: "Day 2: Phi Phi Islands Tour",
+        name: "Phi Phi Islands Tour",
         highlights: [
           "Breakfast at the resort",
           "Full-day speedboat tour to Phi Phi Islands",
@@ -124,7 +124,7 @@ export const dummyPackages = [
         ],
       },
       {
-        name: "Day 3: Phuket Cultural Day",
+        name: "Phuket Cultural Day",
         highlights: [
           "Breakfast at the resort",
           "Visit Big Buddha and Wat Chalong Temple",
@@ -134,7 +134,7 @@ export const dummyPackages = [
         ],
       },
       {
-        name: "Day 4: Island Relaxation",
+        name: "Island Relaxation",
         highlights: [
           "Breakfast at the resort",
           "Morning yoga session",
@@ -144,7 +144,7 @@ export const dummyPackages = [
         ],
       },
       {
-        name: "Day 5: Departure",
+        name: "Departure",
         highlights: [
           "Breakfast at the resort",
           "Free time for last-minute shopping or relaxation",
@@ -187,7 +187,7 @@ export const dummyPackages = [
     ],
     itinerary: [
       {
-        name: "Day 1: Arrival in Ubud",
+        name: "Arrival in Ubud",
         highlights: [
           "Arrive at Ngurah Rai International Airport",
           "Transfer to boutique hotel in Ubud",
@@ -196,7 +196,7 @@ export const dummyPackages = [
         ],
       },
       {
-        name: "Day 2: Ubud Culture and Nature",
+        name: "Ubud Culture and Nature",
         highlights: [
           "Breakfast at the hotel",
           "Morning yoga session overlooking rice terraces",
@@ -207,7 +207,7 @@ export const dummyPackages = [
         ],
       },
       {
-        name: "Day 3: Departure",
+        name: "Departure",
         highlights: [
           "Breakfast at the hotel",
           "Morning market visit and souvenir shopping",
@@ -253,7 +253,7 @@ export const dummyPackages = [
     ],
     itinerary: [
       {
-        name: "Day 1: Arrival in Zhangjiajie",
+        name: "Arrival in Zhangjiajie",
         highlights: [
           "Arrive at Zhangjiajie Hehua International Airport",
           "Transfer to eco-lodge near Zhangjiajie National Forest Park",
@@ -262,7 +262,7 @@ export const dummyPackages = [
         ],
       },
       {
-        name: "Day 2: Zhangjiajie National Forest Park",
+        name: "Zhangjiajie National Forest Park",
         highlights: [
           "Breakfast at the lodge",
           "Full day exploring Zhangjiajie National Forest Park",
@@ -273,7 +273,7 @@ export const dummyPackages = [
         ],
       },
       {
-        name: "Day 3: Tianmen Mountain",
+        name: "Tianmen Mountain",
         highlights: [
           "Breakfast at the lodge",
           "Cable car ride up Tianmen Mountain",
@@ -284,7 +284,7 @@ export const dummyPackages = [
         ],
       },
       {
-        name: "Day 4: Zhangjiajie Grand Canyon",
+        name: "Zhangjiajie Grand Canyon",
         highlights: [
           "Breakfast at the lodge",
           "Visit Zhangjiajie Grand Canyon",
@@ -294,7 +294,7 @@ export const dummyPackages = [
         ],
       },
       {
-        name: "Day 5: Departure",
+        name: "Departure",
         highlights: [
           "Breakfast at the lodge",
           "Morning tai chi session",
@@ -340,7 +340,7 @@ export const dummyPackages = [
     ],
     itinerary: [
       {
-        name: "Day 1: Welcome to Athens",
+        name: "Welcome to Athens",
         highlights: [
           "Arrive at Athens International Airport",
           "Transfer to boutique hotel in Plaka",
@@ -349,7 +349,7 @@ export const dummyPackages = [
         ],
       },
       {
-        name: "Day 2: Ancient Athens",
+        name: "Ancient Athens",
         highlights: [
           "Breakfast at the hotel",
           "Visit the Acropolis and Parthenon",
@@ -360,7 +360,7 @@ export const dummyPackages = [
         ],
       },
       {
-        name: "Day 3: Greek Cooking and Cape Sounion",
+        name: "Greek Cooking and Cape Sounion",
         highlights: [
           "Breakfast at the hotel",
           "Morning Greek cooking class",
@@ -370,7 +370,7 @@ export const dummyPackages = [
         ],
       },
       {
-        name: "Day 4: Delphi Day Trip",
+        name: "Delphi Day Trip",
         highlights: [
           "Breakfast at the hotel",
           "Full-day excursion to Delphi",
@@ -380,7 +380,7 @@ export const dummyPackages = [
         ],
       },
       {
-        name: "Day 5: Athens Free Day and Farewell",
+        name: "Athens Free Day and Farewell",
         highlights: [
           "Breakfast at the hotel",
           "Free day for shopping or optional activities",
@@ -389,7 +389,7 @@ export const dummyPackages = [
         ],
       },
       {
-        name: "Day 6: Departure",
+        name: "Departure",
         highlights: [
           "Breakfast at the hotel",
           "Time for last-minute shopping or sightseeing",
